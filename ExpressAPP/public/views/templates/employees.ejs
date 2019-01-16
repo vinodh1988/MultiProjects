@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>employee details</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <th>Eno</th>
+                <th>Name</th>
+                <th>Designation</th>
+            </thead>
+            <tbody>
+                <%
+                   for(let x in employees){
+                 %>
+                 <tr>
+                     <td><%=employees[x].eno%></td>
+                     <td><%=employees[x].name%></td>
+                     <td><%=employees[x].desig%></td>
+                 </tr>
+                 <%
+                    }
+                  %>
+            </tbody>
+        </table>
+    </body>
+</html>

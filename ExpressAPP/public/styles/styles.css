@@ -1,0 +1,49 @@
+h1{
+    background-color: yellowgreen;
+    color: lightyellow;
+}
+
+#homepage{
+    width:100%;
+    min-height:800px;
+}
+
+#left{
+    width: 28%;
+    height:100%;
+    background-color: lightsteelblue;
+    float:left;
+}
+
+#right{
+    width:68%;
+    height:100%;
+    background-color: lightblue;
+    float:left;
+}
+
+#right iframe{
+    height: 100%;
+    width:100%;
+    border:none;
+}
+
+#left li{
+    list-style-type:none;
+    background-color: darkslategray;
+    height: 30px;
+    padding: 5px;
+    width: 160px;
+    border: 1px dashed gray;
+    margin: 3px;
+}
+
+#left a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#left a:hover{
+    color: lightsalmon;
+}
